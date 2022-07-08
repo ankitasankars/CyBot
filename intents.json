@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Heylo",
+        "Hola"
+      ],
+      "responses": [
+        "Hello there!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hola! My name is CyBot..How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day!",
+        "Bye! Do come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Not Good",
+      "patterns": [
+        "I feel sad",
+        "I'm okay",
+        "I don't feel great"
+      ],
+      "responses": [
+        "Don't worry better times will come",
+        "It's okay to not be okay"
+      ]
+    },
+    {
+      "tag": "Health",
+      "patterns": [
+        "How are you?",
+        "All good?",
+        "How do you feel?"
+      ],
+      "responses": [
+        "I'm doing fine, and you?",
+        "I feel great! How about you?"
+      ]
+    },
+    {
+      "tag": "Great",
+      "patterns": [
+        "I feel amazing!",
+        "I'm great",
+        "I feel good",
+        "I'm good"
+      ],
+      "responses": [
+        "That makes me happy to know!"
+      ]
+    },
+    {
+      "tag": "Doing",
+      "patterns": [
+        "What are you doing?",
+        "What's up?",
+        "wassup?"
+      ],
+      "responses": [
+        "Talking to you....",
+        "Having a fun conversation with you!"
+      ]
+    },
+    {
+      "tag": "Eat",
+      "patterns": [
+        "What do you eat?",
+        "which food do you like to eat?",
+        "You love food?",
+        "Wanna eat?"
+      ],
+      "responses": [
+        "I don't like eating anything because I am a bot obviously! :)",
+        "Yup I love eating bugs in my code XD"
+      ]
+    },
+    {
+      "tag": "Advice",
+      "patterns": [
+        "Can you give me an advice?",
+        "I would like an advice",
+        "Please advice me on something"
+      ],
+      "responses": [
+        "If it is personal then I would suggest to try the internet!",
+        "If it's related to work I would be keen to help!"
+      ]
+    },
+    {
+      "tag": "Beautiful",
+      "patterns": [
+        "You look beautiful today!",
+        "you look amazing!",
+        "Love the way you look!"
+      ],
+      "responses": [
+        "I did put more effort into my hair algorithm this morning, thanks for noticing!",
+        "Thank you for the compliment! I do feel amazing today :)"
+      ]
+    },
+    {
+      "tag": "Docker",
+      "patterns": [
+        "Docker",
+        "Can you send me the links for Docker?",
+        "How to get started with docker?",
+        "Can you send me the website links for docker?",
+        "Docker open source",
+        "Docker links",
+        "Docker link",
+        "Development in Docker",
+        "Desktop alternatives"
+      ],
+      "responses": [
+        "1.<a href='https://www.docker.com/'>Docker Main Link</a> \n 2.<a href='https://www.docker.com/products/docker-desktop/alternatives/'>Docker Alternatives</a>\n 3.<a href='https://www.docker.com/community/open-source/'>Docker Open Source</a>\n 4.<a href='https://www.docker.com/community/get-involved/developer-preview/'>Developer Preview</a>"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
